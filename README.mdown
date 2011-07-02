@@ -1,0 +1,29 @@
+# lipService
+
+lipService is a simple tool that allows for the quick and easy generation of "greeked text" or "Lorem ipsum" for use as placeholder text in page layout, web design, word processing, etc.
+
+The installer places lipService.service in your /Library/Services folder.  In order to try it out, launch TextEdit, and right-click (or control-click) in the Text View.  At the bottom of the contextual menu that appears, you should see "Generate Lorem Ipsum Sentence" and "Generate Lorem Ipsum Paragraph".
+
+The default keyboard shortcuts are:
+
+* &#8984;-&quot; produces a paragraph of greeked text
+* &#8984;-&apos; produces a sentence of greeked text
+
+That's about it!
+
+## System Requirements
+
+This version of lipService requires Mac OS X 10.6 (Snow Leopard) or later.  An older version, entitled "lipServiceX", is available for those of you running 10.5 or earlier, at [iWorkCommunity.com](http://www.iworkcommunity.com/content/lipservicex-12)
+
+## Customization
+
+In any open application, go to the Application menu, and choose Services > Services Preferences.  You can enable or disable specific services, and change keyboard shortcuts if you wish.
+
+## Troubleshooting
+
+You may not find the services in the contextual menu right away.  If they aren't appearing, you can try one of two things:
+
+* Log out, and then log back in.
+* Open the terminal, and run the following command:
+
+	/System/Library/CoreServices/pbs
