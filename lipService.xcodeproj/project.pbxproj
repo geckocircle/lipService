@@ -12,23 +12,34 @@
 		28362ED613BFB14600B1801D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28362ED513BFB14600B1801D /* main.m */; };
 		28362EDA13BFB14600B1801D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 28362ED813BFB14600B1801D /* Credits.rtf */; };
 		28362EDD13BFB14600B1801D /* lipServiceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28362EDC13BFB14600B1801D /* lipServiceAppDelegate.m */; };
-		28362EE013BFB14700B1801D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28362EDE13BFB14700B1801D /* MainMenu.xib */; };
+		28362EEF13BFB45700B1801D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28362EED13BFB45700B1801D /* MainMenu.xib */; };
+		28362EF913BFB52300B1801D /* greekeddictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28362EF713BFB52300B1801D /* greekeddictionary.txt */; };
+		28362EFA13BFB52300B1801D /* sentence.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28362EF813BFB52300B1801D /* sentence.txt */; };
+		28362F0013BFB54600B1801D /* lipGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 28362EFF13BFB54600B1801D /* lipGenerator.m */; };
+		289B189213BFCF1B0007D002 /* lipService.icns in Resources */ = {isa = PBXBuildFile; fileRef = 289B189113BFCF1B0007D002 /* lipService.icns */; };
+		289B189513BFCF2C0007D002 /* lipService.icns in Resources */ = {isa = PBXBuildFile; fileRef = 289B189413BFCF2C0007D002 /* lipService.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		28362EC513BFB14600B1801D /* lipService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lipService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28362EC513BFB14600B1801D /* lipService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = lipService.app; path = lipService.service; sourceTree = BUILT_PRODUCTS_DIR; };
 		28362EC913BFB14600B1801D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		28362ECC13BFB14600B1801D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		28362ECD13BFB14600B1801D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		28362ECE13BFB14600B1801D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		28362ED113BFB14600B1801D /* lipService-Info.plist */ = {isa = PBXFileReference; path = "lipService-Info.plist"; sourceTree = "<group>"; };
+		28362ED113BFB14600B1801D /* lipService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lipService-Info.plist"; sourceTree = "<group>"; };
 		28362ED313BFB14600B1801D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28362ED513BFB14600B1801D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		28362ED713BFB14600B1801D /* lipService-Prefix.pch */ = {isa = PBXFileReference; path = "lipService-Prefix.pch"; sourceTree = "<group>"; };
+		28362ED713BFB14600B1801D /* lipService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lipService-Prefix.pch"; sourceTree = "<group>"; };
 		28362ED913BFB14600B1801D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		28362EDB13BFB14600B1801D /* lipServiceAppDelegate.h */ = {isa = PBXFileReference; path = lipServiceAppDelegate.h; sourceTree = "<group>"; };
+		28362EDB13BFB14600B1801D /* lipServiceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lipServiceAppDelegate.h; sourceTree = "<group>"; };
 		28362EDC13BFB14600B1801D /* lipServiceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lipServiceAppDelegate.m; sourceTree = "<group>"; };
-		28362EDF13BFB14700B1801D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		28362EEE13BFB45700B1801D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		28362EF713BFB52300B1801D /* greekeddictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = greekeddictionary.txt; sourceTree = "<group>"; };
+		28362EF813BFB52300B1801D /* sentence.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sentence.txt; sourceTree = "<group>"; };
+		28362EFE13BFB54600B1801D /* lipGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lipGenerator.h; sourceTree = "<group>"; };
+		28362EFF13BFB54600B1801D /* lipGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lipGenerator.m; sourceTree = "<group>"; };
+		289B189113BFCF1B0007D002 /* lipService.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = lipService.icns; sourceTree = "<group>"; };
+		289B189413BFCF2C0007D002 /* lipService.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = lipService.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +57,7 @@
 		28362EBA13BFB14600B1801D = {
 			isa = PBXGroup;
 			children = (
+				289B189413BFCF2C0007D002 /* lipService.icns */,
 				28362ECF13BFB14600B1801D /* lipService */,
 				28362EC813BFB14600B1801D /* Frameworks */,
 				28362EC613BFB14600B1801D /* Products */,
@@ -82,9 +94,11 @@
 		28362ECF13BFB14600B1801D /* lipService */ = {
 			isa = PBXGroup;
 			children = (
+				28362EFE13BFB54600B1801D /* lipGenerator.h */,
+				28362EFF13BFB54600B1801D /* lipGenerator.m */,
 				28362EDB13BFB14600B1801D /* lipServiceAppDelegate.h */,
 				28362EDC13BFB14600B1801D /* lipServiceAppDelegate.m */,
-				28362EDE13BFB14700B1801D /* MainMenu.xib */,
+				28362EED13BFB45700B1801D /* MainMenu.xib */,
 				28362ED013BFB14600B1801D /* Supporting Files */,
 			);
 			path = lipService;
@@ -93,6 +107,9 @@
 		28362ED013BFB14600B1801D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28362EF713BFB52300B1801D /* greekeddictionary.txt */,
+				289B189113BFCF1B0007D002 /* lipService.icns */,
+				28362EF813BFB52300B1801D /* sentence.txt */,
 				28362ED113BFB14600B1801D /* lipService-Info.plist */,
 				28362ED213BFB14600B1801D /* InfoPlist.strings */,
 				28362ED513BFB14600B1801D /* main.m */,
@@ -127,6 +144,9 @@
 /* Begin PBXProject section */
 		28362EBC13BFB14600B1801D /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = 28362EBF13BFB14600B1801D /* Build configuration list for PBXProject "lipService" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -151,7 +171,11 @@
 			files = (
 				28362ED413BFB14600B1801D /* InfoPlist.strings in Resources */,
 				28362EDA13BFB14600B1801D /* Credits.rtf in Resources */,
-				28362EE013BFB14700B1801D /* MainMenu.xib in Resources */,
+				28362EEF13BFB45700B1801D /* MainMenu.xib in Resources */,
+				28362EF913BFB52300B1801D /* greekeddictionary.txt in Resources */,
+				28362EFA13BFB52300B1801D /* sentence.txt in Resources */,
+				289B189213BFCF1B0007D002 /* lipService.icns in Resources */,
+				289B189513BFCF2C0007D002 /* lipService.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +188,7 @@
 			files = (
 				28362ED613BFB14600B1801D /* main.m in Sources */,
 				28362EDD13BFB14600B1801D /* lipServiceAppDelegate.m in Sources */,
+				28362F0013BFB54600B1801D /* lipGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,10 +211,10 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		28362EDE13BFB14700B1801D /* MainMenu.xib */ = {
+		28362EED13BFB45700B1801D /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				28362EDF13BFB14700B1801D /* en */,
+				28362EEE13BFB45700B1801D /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -201,7 +226,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -217,9 +242,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -227,7 +252,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -237,8 +262,8 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
@@ -249,7 +274,7 @@
 				GCC_PREFIX_HEADER = "lipService/lipService-Prefix.pch";
 				INFOPLIST_FILE = "lipService/lipService-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				WRAPPER_EXTENSION = service;
 			};
 			name = Debug;
 		};
@@ -260,7 +285,7 @@
 				GCC_PREFIX_HEADER = "lipService/lipService-Prefix.pch";
 				INFOPLIST_FILE = "lipService/lipService-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				WRAPPER_EXTENSION = service;
 			};
 			name = Release;
 		};
@@ -283,6 +308,7 @@
 				28362EE513BFB14700B1801D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

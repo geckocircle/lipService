@@ -7,14 +7,17 @@
 //
 
 #import "lipServiceAppDelegate.h"
+#import "lipGenerator.h"
 
 @implementation lipServiceAppDelegate
 
-@synthesize window;
+@synthesize gen;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    self.gen = [[lipGenerator alloc] init];
+    [NSApp setServicesProvider:self.gen];
+
 }
 
 @end

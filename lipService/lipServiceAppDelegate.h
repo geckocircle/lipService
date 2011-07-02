@@ -7,11 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+@class lipGenerator;
 
 @interface lipServiceAppDelegate : NSObject <NSApplicationDelegate> {
-    NSWindow *window;
+    lipGenerator *gen;
 }
 
-@property (assign) IBOutlet NSWindow *window;
+@property (retain) lipGenerator *gen;
+
 
 @end
